@@ -10,9 +10,9 @@ root: index
 #  titlesonly: True
 parts:
 - caption: 测试 #必须与parts一起用,一个parts可以有多个caption
-#  numbered: True #会在标题前面加上序号1.一个部分一个
+#  numbered: True #会在标题前面加上序号1.一个部分一个,需重构
   chapters:  
   - file: chapter0/section1
-    title: 苹果1  #用来代替原标题
+    title: 这不是苹果  #用来代替原标题,需重构
 #  title: My alternate page title
 #- caption:可以为章节添加标题
