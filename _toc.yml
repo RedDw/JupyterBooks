@@ -1,0 +1,18 @@
+#jupyter-book toc from-project path/to/book -f [jb-book/jb-article]该命令可自动生成toc文件,搜索由小到大的序号排序
+#目录结构,jb-article只有sections,jb-book有parts和chapters
+format: jb-book
+#defaults:中的titlesonly: True意味着所有文件的标题都是在文件内的
+#根页,图书 HTML 的登录页面
+root: index
+#parts(条目)->chapters(章节)->sections(小节)
+#file用相对于toc目录地址的本地文件,glob用于添加多个文件如subfolder/other*,url直接引用网络地址,若其附加title则用title的文本link
+#defaults:  #不加序号,只有标题
+#  titlesonly: True
+parts:
+- caption: 测试 #必须与parts一起用,一个parts可以有多个caption
+#  numbered: True #会在标题前面加上序号1.一个部分一个
+  chapters:  
+  - file: chapter0/section1
+    title: 苹果1  #用来代替原标题
+#  title: My alternate page title
+#- caption:可以为章节添加标题

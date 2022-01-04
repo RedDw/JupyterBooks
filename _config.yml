@@ -1,0 +1,18 @@
+# 书籍设置
+title: 计算机组成原理
+author: 晗曙
+logo: 
+#在每次构建时强制重新执行笔记本
+execute:
+  execute_notebooks: force
+#定义用于 PDF 构建的 Latex 输出文件的名称
+#latex:
+#  latex_engine: "xelatex"
+#  latex_documents:
+#    targetname: book.tex
+#添加一个 bibtex 文件，以便我们可以创建引文
+#bibtex_bibfiles:
+#  - references.bib
+#html设置
+html:
+  home_page_in_navbar: false #主页不在导航栏
